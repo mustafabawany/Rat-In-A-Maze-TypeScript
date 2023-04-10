@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #011F3F;
+    color: white;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:  4%;
+    color: #FEF2BF;
+}
+
+.square-hollow {
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+  }
+
+.square-filled {
+    height: 35px;
+    width: 35px;
+    border: 1px solid white ;
+    background-color: dimgrey;
+}
+
+.square-start{
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+    background-color: red;
+}
+
+.square-visited{
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+    background-color: green;
+}
+
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 30px;
+    width: 250px;
+    border: 10px solid black;
+    border-radius: 20%;
+    padding-top: 15px;
+    font-size: 11px;
+}
+
+.btn:hover{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+footer{
+    font-size: 12px;
+}
